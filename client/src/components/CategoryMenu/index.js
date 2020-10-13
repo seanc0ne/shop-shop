@@ -4,7 +4,7 @@ import { useStoreContext } from "../../utils/GlobalState";
 import { useQuery } from '@apollo/react-hooks';
 import { QUERY_CATEGORIES } from "../../utils/queries";
 
-function CategoryMenu({  }) {
+function CategoryMenu() {
   // const { data: categoryData } = useQuery(QUERY_CATEGORIES);
   // const categories = categoryData?.categories || [];
   const [state, dispatch] = useStoreContext();
